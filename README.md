@@ -11,4 +11,4 @@ ___
 
 ## Project description
 
-The goal of the project is to create an html report comparing statistisc of two given NBA players (current or historical). The user writes the names in the command line when he wants to run the script. It then takes these names and gets information about them using `nba_api`, which is an API Client for `www.nba.com`. More about the client [here](https://github.com/swar/nba_api/blob/master/README.md).
+The goal of this <b>Python></b> project is to create an html report comparing statistisc of two given NBA players (current or historical). The user writes the names in the command line when he wants to run the script. It then takes these names and gets information about them using `nba_api`, which is an API Client for `www.nba.com`. More about the client [here](https://github.com/swar/nba_api/blob/master/README.md).
