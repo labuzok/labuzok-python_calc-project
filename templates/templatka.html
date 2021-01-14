@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <link rel="stylesheet" href="./forms/style.css">
+    </head>
+ 
+    <body>
+
+        <h1>{{dict['Name'][0]}} vs {{dict2['Name'][0]}}</h1>
+
+         <div id = "one">
+            {% for key, value in dict.items() %}
+              {% for key1, value1 in dict[key].items() %}
+                <li>{{key}}: {{value1}}</li>
+              {% endfor %}
+            {% endfor %}
+        </div>
+            <br>
+            <br>
+        <div id = "two">
+            {% for key2, value2 in dict2.items() %}
+                {% for key3, value3 in dict2[key2].items() %}
+                  <li>{{key2}}: {{value3}}</li>
+                {% endfor %}
+            {% endfor %}
+        </div>
+
+        <h2>{{dict['Name'][0]}} career stats</h2>
+
+         <table>
+            {{career_table}}
+        </table>
+
+
+        <h2>{{dict2['Name'][0]}} career stats</h2>
+        <table>
+            {{career2_table}}
+        </table>
+        <br>
+        <br>
+
+        <img src='./img/ppg.png' alt="points">
+
+        <img src="./img/apg.png" alt="assists">
+
+        <img src="./img/rpg.png" alt="rebounds">
+
+    </body>
+</html>

@@ -1,0 +1,58 @@
+
+
+
+body {
+  background-color: #e00000;
+  background-image: url('../img/nba.jpg');
+  background-repeat: repeat;
+  background-size: contain;
+  border: 1px solid red;
+  font: Monospace
+
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-align: left;
+  margin-left: 2cm
+}
+
+
+#one {
+  display: inline-block;
+  width: 10cm;
+  color: #000500;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid red;
+  margin-left: 2cm;
+  margin-bottom: 1cm;
+}
+
+#two {
+  display: inline-block;
+  width: 10cm;
+  color: #000500;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid red;
+  margin-left: 2cm;
+  margin-bottom: 2cm;
+}
+
+table {
+  margin-left: 2cm;
+  margin-bottom: 2cm
+}
+
+
+img {
+  display: block;
+  margin-left: 2cm;
+  margin-bottom: 2cm;
+}
