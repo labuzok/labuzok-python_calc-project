@@ -1,1 +1,1 @@
-# labuzok-python_calc-project
+<div align="center"> # labuzok-python_calc-project </div >
