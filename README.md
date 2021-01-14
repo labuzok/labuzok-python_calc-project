@@ -1,5 +1,5 @@
-# <div align="center"> Python in Engineering Calculations - NBA players statistics
-  <img src = "img/agh.jpg"> </div>
+# <div align="center"> Python in Engineering Calculations - NBA players statistics</div>
+  <div align="center"><img src = "img/agh.jpg"> </div>
   <div align="center">
   <br><b>Author:</b> Michał Kozubal
   <br><b>Country:</b> Poland
